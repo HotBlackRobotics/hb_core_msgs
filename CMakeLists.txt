@@ -16,6 +16,9 @@ add_message_files(
     Pose2D.msg
     Odom2D.msg
     Odom2DExtended.msg
+    MotorCtrl.msg
+    RobotStatus.msg
+    ServoMotorCtrl.msg
   )
 
 generate_messages()
